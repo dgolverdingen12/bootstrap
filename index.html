@@ -5,34 +5,125 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Bootstrap wireframe</title>
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="container-fluid">
-	<div class="alert alert-primary" role="alert">
-  A simple primary alert—check it out!
-</div>
-<div class="alert alert-secondary" role="alert">
-  A simple secondary alert—check it out!
-</div>
-<div class="alert alert-success" role="alert">
-  A simple success alert—check it out!
-</div>
-<div class="alert alert-danger" role="alert">
-  A simple danger alert—check it out!
-</div>
-<div class="alert alert-warning" role="alert">
-  A simple warning alert—check it out!
-</div>
-<div class="alert alert-info" role="alert">
-  A simple info alert—check it out!
-</div>
-<div class="alert alert-light" role="alert">
-  A simple light alert—check it out!
-</div>
-<div class="alert alert-dark" role="alert">
-  A simple dark alert—check it out!
-</div>
-</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+			<ul class="navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link home" href="">Link 1<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link intro" href="#">Link 2</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">link 3</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">link 3</a>
+			</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner carousel-top">
+				<div class="carousel-item active">
+					<img class="first-slide" src="src/images/slide.png" alt="First slide">
+					<div class="container">
+						<div class="carousel-caption text-center">
+							<h1 class="carousel__caption">Lorem ipsum dolar</h1>
+							<div class="carousel__buttons">
+								<a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
+								<span class="seperator">or</span>	
+								<a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="introduction" id="introduction">
+		<div class="container">
+				<h3 class="text-center">Introduction</h3>
+			<div class="row margin-top">
+				<div class="col-xl-6 col-sm-12">
+					<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. 
+						Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, 
+						eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. 
+						At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius 
+						Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.
+					</p>
+					<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. 
+						Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, 
+						eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. 
+						At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius 
+						Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.
+					</p>
+				</div>
+				<div class="col-xl-6 col-sm-12">
+					<p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. 
+					Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, 
+					eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. 
+					At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius 
+					Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.
+					</p>
+					<ul class="list">
+						<li class="list__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+						<li class="list__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+						<li class="list__item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="images">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="text-center">Subtitle</h3>
+				<div class="image__grid">
+					<div class="image__block a"></div>
+					<div class="image__block b"></div>
+					<div class="image__block c"></div>
+					<div class="image__block d"></div>
+					<div class="image__block e"></div>
+					<div class="image__block f"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact-form">
+		<div class="container">
+			<h3 class="text-center">Another subtitle</h3>
+			<form>
+				<div class="form-group">
+					<input type="email" class="form-control" id="exampleInputEmail1">
+				</div>
+				<div class="form-group">
+					<input type="password" class="form-control" id="exampleInputPassword1">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control">
+				</div>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="7" data-gramm="true" style="z-index: auto; position: relative; line-height: 24px; margin-bottom: 20px;"></textarea>
+				<div class="submit__button">
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<footer class="footer"></footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

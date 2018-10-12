@@ -1,0 +1,28 @@
+
+// Variables
+@import "src/scss/variables";
+
+// Mixins
+@import "src/scss/mixins";
+
+// Sections
+@import "src/scss/sections/carousel";
+@import "src/scss/sections/introduction";
+@import "src/scss/sections/grid";
+@import "src/scss/sections/contact";
+@import "src/scss/sections/footer";
+
+section {
+	@include margin;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}

@@ -1,0 +1,11 @@
+@mixin margin {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@mixin grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(3, 200px);
+	grid-gap: 10px;
+}
